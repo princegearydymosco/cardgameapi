@@ -16,17 +16,15 @@ To run this project on your local machine, you will need to have the following t
 
 git clone https://github.com/princegearydymosco/cardgameapi.git
 
-2. Open your terminal and navigate to the project directory.
+### How To Use
 
-### Usage
+1. Open the solution file in Visual Studio.
 
-1. Run the API using the following command:
-
-dotnet run
+2. Build the solution.
 
 This will start the API server on `http://localhost:xxxx`.
 
-2. Navigate to `http://localhost:xxxx/swagger` to view the Swagger UI, which provides an interactive documentation for the API endpoints.
+3. Navigate to `http://localhost:xxxx/swagger` to view the Swagger UI, which provides an interactive documentation for the API endpoints.
 
 From the Swagger UI, you can test the API by sending requests to each endpoint. You can also view the request and response schemas for each endpoint.
 
