@@ -4,10 +4,25 @@ This is a RESTful API for managing a deck of cards. It allows you to create new 
 
 ## Getting Started
 
+### Prerequisites
+
+To run this project on your local machine, you will need to have the following tools installed:
+
+- [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
+
+### Installation
+
+1. Clone this repository to your local machine:
+
+git clone https://github.com/princegearydymosco/cardgameapi.git
+
+2. Open your terminal and navigate to the project directory.
+
 ### Usage
 
 1. Run the API using the following command:
 
+dotnet run
 
 This will start the API server on `http://localhost:xxxx`.
 
