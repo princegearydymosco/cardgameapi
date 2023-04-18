@@ -63,7 +63,7 @@ namespace CardGameAPI.Controllers
             return Ok(deck);
         }
 
-        [HttpGet("{deckId}/draw")]
+        [HttpGet("api/deck/{deckId}/draw")]
         public ActionResult<List<Card>> DrawCard(string deckId, int count = 1)
         {
             var deck = _decks.FirstOrDefault(d => d.DeckId == deckId);

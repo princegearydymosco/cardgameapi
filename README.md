@@ -30,7 +30,7 @@ From the Swagger UI, you can test the API by sending requests to each endpoint. 
 
 ## API Endpoints
 
-### `POST /deck`
+### `POST /Deck/api/deck`
 
 Creates a new deck of cards.
 
@@ -39,7 +39,7 @@ Creates a new deck of cards.
 - `shuffled` (optional): If set to `true`, the deck will be shuffled. Default is `false`.
 - `cards` (optional): A comma-separated list of card codes to include in the deck. For example: `AS,KC,QH`.
 
-### `GET /deck/{deckId}`
+### `GET /Deck/api/deck/{deckId}`
 
 Returns the details of a specific deck.
 
@@ -47,7 +47,7 @@ Returns the details of a specific deck.
 
 - `deckId`: The unique identifier of the deck.
 
-### `GET /deck/{deckId}/draw`
+### `GET /Deck/api/deck/{deckId}/draw`
 
 Draws one or more cards from a deck.
 
